@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu | Cake Corner Bakery</title>
+
+<!-- Bootstrap & Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+<style>
+    /* body {
+      font-family: 'Montserrat', sans-serif;
+      color: #333;
+      background-color: #fff5f7;
+    }
+
+    h1, h2, h3, h4, h5 {
+      font-family: 'Playfair Display', serif;
+      color: #6b3a5e;
+      font-weight: 700;
+    }
+
+    .navbar { background: linear-gradient(90deg, #d14b8a 0%, #e27bb0 100%); }
+    .navbar a{font-family:' Montserrat', sans-serif;}
+  .navbar-brand { color: #fff !important; font-weight: 700; font-size: 1.5rem; }
+  .nav-link { color: #fff !important; font-weight: 600; transition: color 0.3s; }
+  .nav-link:hover, .nav-link.active { color: #ffd1dc !important; font-weight: 700; }
+  .btn-pink { background-color: #e27bb0; color: #fff; border: none; font-weight: 600; }
+  .btn-pink:hover { background-color: #d14b8a; } */
+
+  footer { background-color: #6b3a5e; color: #f0e6e8; }
+  footer p{
+      color: #fff
+    }
+  footer h4, footer h5 { color: #ffd1dc; font-weight: 700; }
+  footer a { color: #ffd1dc; text-decoration: none; font-weight: 500; transition: all 0.3s; }
+  footer a:hover { color: #fff; font-weight: 700; }
+  .pink-accent { color: #e27bb0; }
+
+  .menu-banner{
+    background:url('images/photo2.jpj.avif') center/cover no-repeat;
+    height:45vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#a0407b;
+    text-shadow:0 3px 6px rgba(227, 219, 219, 0.5);
+  }
+  .menu-banner h1{ font-size:55px; font-weight:700; }
+
+  .section-title{
+    text-align:center;
+    margin:50px 0 20px;
+    font-size:32px;
+    font-weight:700;
+    color:#b30000;
+  }
+
+  .product-card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    background:#fff;
+    box-shadow:0 2px 12px rgba(0,0,0,0.12);
+  }
+  .product-card img{ height:220px; object-fit:cover; width:100%; }
+  .product-card .btn{ background:#af61a5; color:#fff; border-radius:6px; }
+</style>
+
+</head>
+<body>
+
+<!-- Navbar -->
+ <div id="navbar"></div>
+<!-- <nav class="navbar navbar-expand-lg navbar-dark shadow-lg">
+  <div class="container">
+    <a class="navbar-brand fw-bold fs-4" href="index.html">Cake Corner Bakery</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav7">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav7">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+         <li class="nav-item"><a class="nav-link" href="ProductDetail.html"></a></li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+
+<!-- MENU BANNER -->
+<div class="menu-banner">
+  <h1>Our Cakes & Boxes</h1>
+</div>
+
+<!-- ============== Our Cakes & Boxes Section ============== -->
+<h2 class="section-title">Our Cakes & Boxes</h2>
+<div class="container mb-5">
+  <div class="row g-4">
+
+    <!-- Product 1 -->
+    <div class="col-md-4">
+      <div class="product-card">
+        <img src="images/Ice_Cream_Cakes.jpj.webp" alt="Chocolate Fudge Cake">
+        <div class="p-3">
+          <h5>Ice Cream Cake</h5>
+          <p>Rs 1500</p>
+          <button class="btn w-100">Add</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="col-md-4">
+      <div class="product-card">
+        <img src="images/classic cake.jpj" alt="Red Velvet Cake">
+        <div class="p-3">
+          <h5>Classic Cake</h5>
+          <p>Rs 1700</p>
+          <button class="btn w-100">Add</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="col-md-4">
+      <div class="product-card">
+        <img src="images/red velvel caqke.jpg" alt="Cheesecake">
+        <div class="p-3">
+          <h5>Red Velvet Cake</h5>
+          <p>Rs 1900</p>
+          <button class="btn w-100">Add</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="col-md-4">
+      <div class="product-card">
+        <img src="images/icecream.jpj.avif" alt="Chocolate Pastry">
+        <div class="p-3">
+          <h5>Ice Cream</h5>
+          <p>Rs 220</p>
+          <button class="btn w-100">Add</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="col-md-4">
+      <div class="product-card">
+        <img src="images/Strawberry-Cheesecake-.jpj" alt="Strawberry Pastry">
+        <div class="p-3">
+          <h5>Strawberry Pastry</h5>
+          <p>Rs 250</p>
+          <button class="btn w-100">Add</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="col-md-4">
+      <div class="product-card">
+        <img src="images/cooffee.jpj.avif" alt="Almond Cookies">
+        <div class="p-3">
+          <h5>Coffee</h5>
+          <p>Rs 250</p>
+          <button class="btn w-100">Add</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 7 -->
+    <div class="col-md-4">
+      <div class="product-card">
+        <img src="images/Oreo- donut.jpj" alt="Chocolate Chip Cookies">
+        <div class="p-3">
+          <h5>Oreo Donut</h5>
+          <p>Rs 300</p>
+          <button class="btn w-100">Add</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 8 -->
+    <div class="col-md-4">
+      <div class="product-card">
+        <img src="images/pink cake.jpj.avif" alt="Oatmeal Cookies">
+        <div class="p-3">
+          <h5>Mini Cake</h5>
+          <p>Rs 200</p>
+          <button class="btn w-100">Add</button>
+        </div>
+      </div>
+    </div>
+
+     <!-- Product 8 -->
+    <div class="col-md-4">
+      <div class="product-card">
+        <img src="images/BLACK FOREST .jpj.avif" alt="Oatmeal Cookies">
+        <div class="p-3">
+          <h5>Chocolate Pastry</h5>
+          <p>Rs 200</p>
+          <button class="btn w-100">Add</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ===== Footer Start ===== -->
+<footer class="pt-5 pb-4" style="background-color: rgb(151, 78, 127);">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <h4 class="fw-bold mb-3">Cake Corner Bakery</h4>
+        <p class="small">
+          Freshly baked cakes, pastries, and cookies — Custom designs for every celebration.
+          Quality ingredients and friendly service since 2020.
+        </p>
+      </div>
+      <div class="col-lg-2 col-md-6 mb-4">
+        <h5 class="mb-3">Pages</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="d-block mb-2">Home</a></li>
+          <li><a href="about.html" class="d-block mb-2">About Us</a></li>
+          <li><a href="menu.html" class="d-block mb-2">Our Menu</a></li>
+          <li><a href="products.html" class="d-block mb-2">Products</a></li>
+          <li><a href="gallery.html" class="d-block mb-2">Gallery</a></li>
+          <li><a href="contact.html" class="d-block mb-2">Contact Us</a></li>
+          <li><a href="login.html" class="d-block mb-2">Login</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6 mb-4">
+        <h5 class="mb-3">Customer</h5>
+        <ul class="list-unstyled">
+          <li><a href="cart.html" class="d-block mb-2">Cart</a></li>
+          <li><a href="checkout.html" class="d-block mb-2">Checkout</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <h5 class="mb-3">Contact</h5>
+        <p class="small mb-1"><i class="bi bi-geo-alt"></i> 123 Bakery Lane, Your City, USA</p>
+        <p class="small mb-1"><i class="bi bi-telephone"></i> +1 (555) 123-4567</p>
+        <p class="small"><i class="bi bi-envelope"></i> info@cakecornerbakery.com</p>
+      </div>
+    </div>
+    <hr class="border-dark">
+    <div class="text-center small">
+      © 2025 Cake Corner Bakery — All Rights Reserved.
+    </div>
+  </div>
+</footer>
+
+<script>fetch("navbar.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("navbar").innerHTML = data;
+    });</script>
+</body>
+</html>
